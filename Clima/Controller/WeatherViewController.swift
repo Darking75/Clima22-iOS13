@@ -12,7 +12,7 @@ import UIKit
 //func didUpdateWeather(weather: WeatherModel)
 //}
 
-class WeatherViewController: UIViewController, UITextFieldDelegate, weatherProtocol {
+class WeatherViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var conditionImageView: UIImageView!
     @IBOutlet weak var temperatureLabel: UILabel!
